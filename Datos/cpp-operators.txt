@@ -1,0 +1,71 @@
+#include <iostream>
+
+int main() {
+    // Operadores de cálculo en C++
+
+    // Suma (+)
+    int a = 5 + 3;  // a = 8
+
+    // Resta (-)
+    int b = 10 - 4;  // b = 6
+
+    // Multiplicación (*)
+    int c = 3 * 4;  // c = 12
+
+    // División (/)
+    double d = 15.0 / 3;  // d = 5.0
+
+    // Módulo (%)
+    int e = 17 % 3;  // e = 2 (resto de la división)
+
+    // Incremento (++)
+    int f = 5;
+    f++;  // f = 6
+
+    // Decremento (--)
+    int g = 5;
+    g--;  // g = 4
+
+    // Operadores de asignación en C++
+
+    // Asignación simple (=)
+    int x = 10;
+
+    // Asignación con suma (+=)
+    x += 5;  // Equivalente a: x = x + 5
+
+    // Asignación con resta (-=)
+    x -= 3;  // Equivalente a: x = x - 3
+
+    // Asignación con multiplicación (*=)
+    x *= 2;  // Equivalente a: x = x * 2
+
+    // Asignación con división (/=)
+    x /= 4;  // Equivalente a: x = x / 4
+
+    // Asignación con módulo (%=)
+    x %= 3;  // Equivalente a: x = x % 3
+
+    // Operadores bit a bit
+    int y = 5;  // 101 en binario
+    y <<= 1;    // Desplazamiento a la izquierda, y = 10 (1010 en binario)
+    y >>= 1;    // Desplazamiento a la derecha, y = 5 (101 en binario)
+    y &= 3;     // AND bit a bit, y = 1 (001 en binario)
+    y |= 4;     // OR bit a bit, y = 5 (101 en binario)
+    y ^= 1;     // XOR bit a bit, y = 4 (100 en binario)
+
+    // Ejemplo de uso
+    int numero = 10;
+    std::cout << "Número inicial: " << numero << std::endl;
+    
+    numero += 5;
+    std::cout << "Después de suma: " << numero << std::endl;
+    
+    numero *= 2;
+    std::cout << "Después de multiplicación: " << numero << std::endl;
+    
+    numero %= 7;
+    std::cout << "Después de módulo: " << numero << std::endl;
+
+    return 0;
+}
