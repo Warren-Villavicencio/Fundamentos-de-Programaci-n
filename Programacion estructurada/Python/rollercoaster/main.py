@@ -1,5 +1,6 @@
-from get_height import get_height
+from get_heigth import get_heigth
 from check_height import check_height
+
 def main():
     """Main function to run the rollercoaster height check."""
     height = get_height()
