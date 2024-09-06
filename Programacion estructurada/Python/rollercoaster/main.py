@@ -1,4 +1,4 @@
-from get_heigth import get_heigth
+from get_height import get_height
 from check_height import check_height
 
 def main():
