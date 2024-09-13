@@ -12,7 +12,7 @@ if bmi < 18.5:
     print("Bajo de peso")
 elif bmi >= 18.5:
      print("Peso normal")
-elif bmi <= 24.9:
+elif bmi <= 25:
      print("Peso normal.")
      
 else:
