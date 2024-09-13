@@ -7,11 +7,15 @@ if height >= 120:
     
     print(" Puedes ingresar")
     age = int(input(" ¿Cuál es tu edad: "))
-    if age >= 18:
-        print(" Pagarás 12 dólares.")
+    if age <= 12:
+        print(" Pagarás 5 dólares.")
+        
+    elif age <= 18:
+    
+        print(" Pagarás 7 dólares.")
     else:
         
-        print(" Pagarás 7 dólares.")
+        print(" Pagarás 12 dólares.")
         
 else:
 
