@@ -22,7 +22,7 @@ if height >= 120:
         
         if want_phot == "si":
             pagaras += 3
-            print(f" Tu precio final es{pagaras}")
+            print(f" Tu precio final es: {pagaras}")
             
         
 else:
