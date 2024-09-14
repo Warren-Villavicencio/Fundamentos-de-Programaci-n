@@ -1,4 +1,7 @@
 from funciones import calculate_price
+from funciones import get_pepperoni_choice
+from funciones import get_cheese_choice
+from funciones import calculate_price
 
 
 # Main program
