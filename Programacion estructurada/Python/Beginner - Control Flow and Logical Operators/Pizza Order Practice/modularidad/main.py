@@ -1,4 +1,5 @@
-import funciones from funciones
+from funciones import calculate_price
+
 
 # Main program
 print("Welcome to pizza order Delivery")
