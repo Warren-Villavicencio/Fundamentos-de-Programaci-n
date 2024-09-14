@@ -8,14 +8,29 @@ add_extra_chesse = str(input(" Do you want extra cheese. "))
 
 if size == "s":
     pagaras = 5
-    print (" Pagarás 5 dólares") 
+    
 elif size == "m":
      pagaras = 9
-     print (" Pagarás 9 dólares")
-elif size == "l5":
+     
+elif size == "l":
       pagaras = 15
-      print (" Pagarás 15 dólares")
       
+else:
+
+    print(" Debes elegir entre m s l")
+           
+      
+if add_peperroni == "si":
+    if size == "m":
+       pagaras += 2
+    else:
+          pagaras += 3
+    
+if add_extra_chesse == "si":
+    pagaras += 1
+    print(f" Tu precio final es: {pagaras}")
+      
+
       
     
     
