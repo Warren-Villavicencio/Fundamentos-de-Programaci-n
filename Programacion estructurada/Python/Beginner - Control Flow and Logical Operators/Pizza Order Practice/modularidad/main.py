@@ -1,4 +1,4 @@
-from funciones import calculate_price
+from funciones import get_pizza_size
 from funciones import get_pepperoni_choice
 from funciones import get_cheese_choice
 from funciones import calculate_price
