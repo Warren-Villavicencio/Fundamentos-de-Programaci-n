@@ -1,9 +1,9 @@
-# Ejemplo: Verificando si un caracter es una vocal
-# El operador 'or' solo necesita que una de las condiciones sea True.
+# Ejemplo: Verificando si un número es par
+# El operador 'not' invierte el valor de verdad de una condición.
 
-caracter = 'e'
-# Verificamos si el caracter es una vocal minúscula
-if caracter == 'a' or caracter == 'e' or caracter == 'i' or caracter == 'o' or caracter == 'u':
-    print("Es una vocal.")
+numero = 7
+# Verificamos si el número no es par (es decir, si es impar)
+if not numero % 2 == 0:
+    print("El número es impar.")
 else:
-    print("No es una vocal.")
+    print("El número es par.")
