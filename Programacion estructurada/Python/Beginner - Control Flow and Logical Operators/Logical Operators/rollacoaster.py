@@ -15,7 +15,7 @@ if height >= 120:
         pagaras = 7
         print(" Pagarás 7 dólares.")
         
-        elif 45 <= age 55 
+        elif 45 <= age  55 
         
     else:
         pagaras = 12
