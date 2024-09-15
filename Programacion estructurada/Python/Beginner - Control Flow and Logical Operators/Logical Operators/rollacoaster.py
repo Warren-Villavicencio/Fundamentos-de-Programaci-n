@@ -15,7 +15,7 @@ if height >= 120:
         pagaras = 7
         print(" Pagarás 7 dólares.")
         
-        
+        elif 
         
     else:
         pagaras = 12
