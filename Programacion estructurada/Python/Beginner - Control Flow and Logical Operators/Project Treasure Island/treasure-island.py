@@ -10,4 +10,4 @@ elif election_one == "l":
     if election_two == "s":
        print(" Game over")
     elif election_three == "w":
-        if  
+        if ele 
