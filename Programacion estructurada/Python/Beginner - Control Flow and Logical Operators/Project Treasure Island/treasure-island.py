@@ -9,4 +9,5 @@ if election_one == "r":
 elif election_one == "l":
     if election_two == "s":
        print(" Game over")
-       elif election_three == "w" 
+    elif election_three == "w":
+         
