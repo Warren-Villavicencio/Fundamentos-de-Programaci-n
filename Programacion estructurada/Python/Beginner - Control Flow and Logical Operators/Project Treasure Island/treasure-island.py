@@ -15,6 +15,6 @@ elif election_one == "l":
         elif election_three == "r":
               print(" Game over")
             elif election_three = "y":
-          print(" you win ")
+            print(" you win ")
               
               
