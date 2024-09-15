@@ -10,4 +10,5 @@ elif election_one == "l":
     if election_two == "s":
        print(" Game over")
     elif election_two == "w":
-        if election_three ==  "b"
+        if election_three ==  "b":
+            
