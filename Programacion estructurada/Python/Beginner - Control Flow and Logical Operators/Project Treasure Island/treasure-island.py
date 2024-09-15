@@ -16,6 +16,6 @@ elif election_one == "l":
               print(" Game over")
             elif election_three == "y":
                 print(" you win ")
-                
+el                
               
               
