@@ -7,4 +7,5 @@ election_three = str(input(" Elige la puerta correcta. b , r o y: "))
 if election_one == "r":
     print(" Game over")
 elif election_one == "l":
-    if election_two == "s"
+    if election_two == "s":
+        
