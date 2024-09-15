@@ -8,4 +8,4 @@ if election_one == "r":
     print(" Game over")
 elif election_one == "l":
     if election_two == "s":
-        
+       print(" Game over")  
