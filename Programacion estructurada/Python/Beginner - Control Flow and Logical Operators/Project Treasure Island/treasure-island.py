@@ -1,3 +1,3 @@
 print(" Welcome to the game")
 
-election_one = 
+election_one = st
