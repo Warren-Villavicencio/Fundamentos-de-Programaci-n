@@ -1,9 +1,9 @@
-# Ejemplo: Verificando si un número es par
-# El operador 'not' invierte el valor de verdad de una condición.
+# Ejemplo: Verificando si un año es bisiesto
+# Combinación de operadores 'and' y 'not'
 
-numero = 7
-# Verificamos si el número no es par (es decir, si es impar)
-if not numero % 2 == 0:
-    print("El número es impar.")
+año = 2024
+# Un año es bisiesto si es divisible por 4, pero no por 100, a menos que sea divisible por 400
+if (año % 4 == 0 and año % 100 != 0) or año % 400 == 0:
+    print(año, "es un año bisiesto.")
 else:
-    print("El número es par.")
+    print(año, "no es un año bisiesto.")
