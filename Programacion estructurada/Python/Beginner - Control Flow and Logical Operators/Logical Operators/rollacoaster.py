@@ -16,7 +16,7 @@ if height >= 120:
         print(" Pagarás 7 dólares.")
         
     elif 45 <= age <= 55:
-        print("") 
+        print(" Entran totalmente gratis") 
         
     else:
         pagaras = 12
